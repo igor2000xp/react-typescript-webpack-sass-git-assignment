@@ -1,14 +1,17 @@
 import React from 'react';
-import './App.css';
+import './App.sass';
+import Form from "./components/form";
 
 function App() {
+
   return (
     <div className="App">
       <header className="App-header">
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
+        <h1>
+          Seobility assignment
+        </h1>
       </header>
+      <Form />
     </div>
   );
 }
